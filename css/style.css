@@ -1,0 +1,23 @@
+/* esto es para menu*/
+nav{
+    background-color: grey;
+    width: auto;
+    height: 35px;
+    word-spacing: 10px;
+    text-align: center;
+    padding: 30px;
+    margin: 10px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: white;
+        font-family: Helvetica;
+        font-size: 30px;
+    }
+
+    a:hover{
+        background-color: rgb(56, 56, 56);
+        border-radius: 20px;
+        padding: 15px;
+    }

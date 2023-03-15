@@ -1,0 +1,28 @@
+.box{
+    display: inline-block; /*controla estructuras*/
+    width: 100px;
+    height: 100px;
+    background: pink;
+    color: white;
+}
+#two{
+    position: absolute; /* Static, relative, sticky, absolute y f*/
+    top: 20px;
+    left: 20px;
+    background: palevioletred;
+}
+
+#three{
+    position: relative; /* Static, relative, sticky, absolute y f*/
+    top: 20px;
+    left: 20px;
+    background: red;
+}
+
+.texto1{
+    width: 600px;
+    height: 400px;
+    overflow: auto; /* visible, auto, hidden, scroll*/
+    padding-left: 150px;/* espacio entre el conte*/
+
+}

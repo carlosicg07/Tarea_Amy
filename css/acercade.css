@@ -1,0 +1,50 @@
+*{font-family: Helvetica;}
+/* el asterisco es un selector universal (toma todos los elementos de la página) */
+
+h2{font-family: 'Times New Roman'; color: rgb(70, 70, 70);}
+/* Solo selecciona la etiqueta que estamos indicando en el selector */
+
+.card{ background-color: rgba(253, 253, 253, 0.801);}
+/* Un selector de tipo clase se manda llamar con un punto seguido sel nombre que le dimos*/
+
+/* Parte de section*/
+section{
+    width: 70%;
+    background-color: rgb(188, 192, 196);
+    float: left;
+    margin: 10px;
+}
+
+/* Se va a modificar la parte del articulo */
+article{
+    margin: 0.5em 3em 0em 0em;
+    padding: 0.5em 2em;
+    background-color: rgb(253, 253, 253);
+    border: 10px solid black;
+    } /* top, rigth, bottom, left*/
+
+/*  Si solo es una medida la aplica a los 4 lados.
+    Si son dos medidas la primera afecta arriba y abajo y la segunda a los lados. */
+
+aside{
+    width: 20%;
+    float: left;
+   }
+
+footer{
+    background-color: rgb(165, 35, 35);
+    width: auto;
+    height: 60px;
+    text-align: center;
+    padding: 45px;
+    margin: 10;
+    clear: both;
+}
+/*Medidas absolutas: Pixeles, son medidas que no van a cambiar "px"*/
+
+/*Medidas relativas: em se utiliza para hacer referencia a la fuente del navegador
+                     rem se adapta a la fuente raiz del html.*/
+
+/*Medidas flexobles: vw se calcula respecto al ancho del viewport. Ej. 100vw 
+                     vh se calcula respecto al alto del vieport. Ej. 100vh
+                     vmin / vmax se calcula respecto al ancho del viewport. */
