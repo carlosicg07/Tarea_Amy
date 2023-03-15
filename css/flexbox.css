@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    /*flex-wrap: wrap;*/
+    /*justify-content: center;*/
+    align-content: center;
+}
+
+#one {
+    background-color: crimson;
+    width: 200px;
+    height: 200px;
+    flex-grow: 8;
+}
+
+#two {
+    background-color: darkorchid;
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+}
+
+#three {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    flex-basis: 500px;
+}
